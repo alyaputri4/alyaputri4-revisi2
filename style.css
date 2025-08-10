@@ -1,0 +1,90 @@
+/* ========== RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== BODY ========== */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-image: url("backround m.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* ========== HEADER TITLE ========== */
+.main-title {
+    margin: 0;
+    font-weight: 700;
+    padding: 30px 0;
+    font-size: 3rem;
+    color: #fefefe;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* ========== JUMBOTRON SECTION ========== */
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+}
+
+/* ========== PROFILE IMAGE ========== */
+.profile-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
+/* ========== HEADING ========== */
+.jumbotron .display-4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+/* ========== LEAD PARAGRAPHS ========== */
+p.lead {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+    color: #f8f8f8;
+}
+
+/* ========== RESPONSIVE (OPTIONAL) ========== */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .jumbotron {
+        padding: 2rem 1rem;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 2rem;
+    }
+
+    p.lead {
+        font-size: 1.1rem;
+    }
+}
